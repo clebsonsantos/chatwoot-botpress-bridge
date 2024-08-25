@@ -37,7 +37,7 @@ class Chatwoot::SendToBotpress < Micro::Case
 
   def process_message(message)
     attachments = message.dig("metadata", "event", "attachments")
-    return message['text'] unless attachments && !attachments.empty?
+    return message['text'].to_s unless attachments && !attachments.empty?
   
     media = attachments[0]
     audio_url = media["data_url"] if media["file_type"] == "audio"
@@ -50,10 +50,10 @@ class Chatwoot::SendToBotpress < Micro::Case
     enable_text_image = get_app_setting_value(:botpress_enable_text_reference_for_media_image)
     enable_text_document = get_app_setting_value(:botpress_enable_text_reference_for_media_document)
   
-    audio = enable_text_audio ? "Enviando @media:audio" : message['text']
-    video = enable_text_video ? "Enviando @media:video" : message['text']
-    image = enable_text_image ? "Enviando @media:image" : message['text']
-    document = enable_text_document ? "Enviando @media:document" : message['text']
+    audio = enable_text_audio ? "Enviando @media:audio" : message['text'].to_s
+    video = enable_text_video ? "Enviando @media:video" : message['text'].to_s
+    image = enable_text_image ? "Enviando @media:image" : message['text'].to_s
+    document = enable_text_document ? "Enviando @media:document" : message['text'].to_s
   
     case type
     when "audio"
@@ -63,19 +63,20 @@ class Chatwoot::SendToBotpress < Micro::Case
     when "image"
       image
     when "file"
-      if audio_url&.length > 0
+      if audio_url&.length.to_i > 0
         audio
-      elsif video_url&.length > 0
+      elsif video_url&.length.to_i > 0
         video
-      elsif image_url&.length > 0
+      elsif image_url&.length.to_i > 0
         image
       else
         document
       end
     else
-      message['text']
+      message['text'].to_s
     end
   end
+  
   
   def get_app_setting_value(key)
     env_variable_mapping = {
