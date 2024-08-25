@@ -18,7 +18,7 @@ class Chatwoot::SendToBotpress < Micro::Case
       }
     }
 
-    body['text'] = process_message(body) if body['text'].empty?
+    body['text'] = process_message(body)
 
     response = Faraday.post(url, body.to_json, {'Content-Type': 'application/json'})
 
