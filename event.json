@@ -1,0 +1,326 @@
+{
+  "text": "",
+  "type": "text",
+  "metadata": {
+    "event": {
+      "account": {
+        "id": 1,
+        "name": "HopChat"
+      },
+      "additional_attributes": {},
+      "content_attributes": {},
+      "content_type": "text",
+      "content": null,
+      "conversation": {
+        "additional_attributes": {},
+        "can_reply": true,
+        "channel": "Channel::Api",
+        "contact_inbox": {
+          "id": 7,
+          "contact_id": 2,
+          "inbox_id": 4,
+          "source_id": "94ce39a0-dcec-4e68-9c1a-ecf63dca2c0c",
+          "created_at": "2024-08-20T12:35:16.834Z",
+          "updated_at": "2024-08-20T12:35:16.834Z",
+          "hmac_verified": false,
+          "pubsub_token": "g1s6AQ6xcPMuA8HMxcDvrXNg"
+        },
+        "id": 5,
+        "inbox_id": 4,
+        "messages": [
+          {
+            "id": 46,
+            "content": null,
+            "account_id": 1,
+            "inbox_id": 4,
+            "conversation_id": 5,
+            "message_type": 0,
+            "created_at": 1724173812,
+            "updated_at": "2024-08-20T17:10:12.907Z",
+            "private": false,
+            "status": "sent",
+            "source_id": "WAID:3EB04C5B14B58116401763",
+            "content_type": "text",
+            "content_attributes": {},
+            "sender_type": "Contact",
+            "sender_id": 2,
+            "external_source_ids": {},
+            "additional_attributes": {},
+            "processed_message_content": null,
+            "sentiment": {},
+            "conversation": {
+              "assignee_id": 1,
+              "unread_count": 1,
+              "last_activity_at": 1724173812,
+              "contact_inbox": {
+                "source_id": "94ce39a0-dcec-4e68-9c1a-ecf63dca2c0c"
+              }
+            },
+            "attachments": [
+              {
+                "id": 7,
+                "message_id": 46,
+                "file_type": "image",
+                "account_id": 1,
+                "extension": null,
+                "data_url": "https://chatwoot.farmaciasa.crowde.dev/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBEZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fbf5cd4363325ace5baf9c6180dd2c9120dd1f37/r45aja.jpeg",
+                "thumb_url": "https://chatwoot.farmaciasa.crowde.dev/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBEZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fbf5cd4363325ace5baf9c6180dd2c9120dd1f37/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFINk1BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--8c66cf82a5ef9322d660c02d657584929aac7851/r45aja.jpeg",
+                "file_size": 39295,
+                "width": null,
+                "height": null
+              }
+            ],
+            "sender": {
+              "additional_attributes": {},
+              "custom_attributes": {},
+              "email": null,
+              "id": 2,
+              "identifier": "557998271029@s.whatsapp.net",
+              "name": "Fábio Souza",
+              "phone_number": "+557998271029",
+              "thumbnail": "",
+              "type": "contact"
+            }
+          }
+        ],
+        "labels": [],
+        "meta": {
+          "sender": {
+            "additional_attributes": {},
+            "custom_attributes": {},
+            "email": null,
+            "id": 2,
+            "identifier": "557998271029@s.whatsapp.net",
+            "name": "Fábio Souza",
+            "phone_number": "+557998271029",
+            "thumbnail": "",
+            "type": "contact"
+          },
+          "assignee": {
+            "id": 1,
+            "name": "Fábio Souza",
+            "available_name": "Fábio Souza",
+            "avatar_url": "",
+            "type": "user",
+            "availability_status": "online",
+            "thumbnail": ""
+          },
+          "team": null,
+          "hmac_verified": false
+        },
+        "status": "pending",
+        "custom_attributes": {},
+        "snoozed_until": null,
+        "unread_count": 1,
+        "first_reply_created_at": "2024-08-20T12:35:25.396Z",
+        "priority": null,
+        "waiting_since": 1724173225,
+        "agent_last_seen_at": 1724173788,
+        "contact_last_seen_at": 0,
+        "timestamp": 1724173812,
+        "created_at": 1724157316
+      },
+      "created_at": "2024-08-20T17:10:12.907Z",
+      "id": 46,
+      "inbox": {
+        "id": 4,
+        "name": "557930217897"
+      },
+      "message_type": "incoming",
+      "private": false,
+      "sender": {
+        "account": {
+          "id": 1,
+          "name": "HopChat"
+        },
+        "additional_attributes": {},
+        "avatar": "",
+        "custom_attributes": {},
+        "email": null,
+        "id": 2,
+        "identifier": "557998271029@s.whatsapp.net",
+        "name": "Fábio Souza",
+        "phone_number": "+557998271029",
+        "thumbnail": ""
+      },
+      "source_id": "WAID:3EB04C5B14B58116401763",
+      "attachments": [
+        {
+          "id": 7,
+          "message_id": 46,
+          "file_type": "image",
+          "account_id": 1,
+          "extension": null,
+          "data_url": "https://chatwoot.farmaciasa.crowde.dev/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBEZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fbf5cd4363325ace5baf9c6180dd2c9120dd1f37/r45aja.jpeg",
+          "thumb_url": "https://chatwoot.farmaciasa.crowde.dev/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBEZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fbf5cd4363325ace5baf9c6180dd2c9120dd1f37/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFINk1BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--8c66cf82a5ef9322d660c02d657584929aac7851/r45aja.jpeg",
+          "file_size": 39295,
+          "width": null,
+          "height": null
+        }
+      ],
+      "event": "message_created",
+      "botpress_bot_id": "teste-chatwoot",
+      "chatwoot_bot_token": "WGbvZGnqjajAtZEGABzSF3ow",
+      "controller": "chatwoot",
+      "action": "webhook",
+      "chatwoot": {
+        "account": {
+          "id": 1,
+          "name": "HopChat"
+        },
+        "additional_attributes": {},
+        "content_attributes": {},
+        "content_type": "text",
+        "content": null,
+        "conversation": {
+          "additional_attributes": {},
+          "can_reply": true,
+          "channel": "Channel::Api",
+          "contact_inbox": {
+            "id": 7,
+            "contact_id": 2,
+            "inbox_id": 4,
+            "source_id": "94ce39a0-dcec-4e68-9c1a-ecf63dca2c0c",
+            "created_at": "2024-08-20T12:35:16.834Z",
+            "updated_at": "2024-08-20T12:35:16.834Z",
+            "hmac_verified": false,
+            "pubsub_token": "g1s6AQ6xcPMuA8HMxcDvrXNg"
+          },
+          "id": 5,
+          "inbox_id": 4,
+          "messages": [
+            {
+              "id": 46,
+              "content": null,
+              "account_id": 1,
+              "inbox_id": 4,
+              "conversation_id": 5,
+              "message_type": 0,
+              "created_at": 1724173812,
+              "updated_at": "2024-08-20T17:10:12.907Z",
+              "private": false,
+              "status": "sent",
+              "source_id": "WAID:3EB04C5B14B58116401763",
+              "content_type": "text",
+              "content_attributes": {},
+              "sender_type": "Contact",
+              "sender_id": 2,
+              "external_source_ids": {},
+              "additional_attributes": {},
+              "processed_message_content": null,
+              "sentiment": {},
+              "conversation": {
+                "assignee_id": 1,
+                "unread_count": 1,
+                "last_activity_at": 1724173812,
+                "contact_inbox": {
+                  "source_id": "94ce39a0-dcec-4e68-9c1a-ecf63dca2c0c"
+                }
+              },
+              "attachments": [
+                {
+                  "id": 7,
+                  "message_id": 46,
+                  "file_type": "image",
+                  "account_id": 1,
+                  "extension": null,
+                  "data_url": "https://chatwoot.farmaciasa.crowde.dev/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBEZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fbf5cd4363325ace5baf9c6180dd2c9120dd1f37/r45aja.jpeg",
+                  "thumb_url": "https://chatwoot.farmaciasa.crowde.dev/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBEZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fbf5cd4363325ace5baf9c6180dd2c9120dd1f37/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFINk1BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--8c66cf82a5ef9322d660c02d657584929aac7851/r45aja.jpeg",
+                  "file_size": 39295,
+                  "width": null,
+                  "height": null
+                }
+              ],
+              "sender": {
+                "additional_attributes": {},
+                "custom_attributes": {},
+                "email": null,
+                "id": 2,
+                "identifier": "557998271029@s.whatsapp.net",
+                "name": "Fábio Souza",
+                "phone_number": "+557998271029",
+                "thumbnail": "",
+                "type": "contact"
+              }
+            }
+          ],
+          "labels": [],
+          "meta": {
+            "sender": {
+              "additional_attributes": {},
+              "custom_attributes": {},
+              "email": null,
+              "id": 2,
+              "identifier": "557998271029@s.whatsapp.net",
+              "name": "Fábio Souza",
+              "phone_number": "+557998271029",
+              "thumbnail": "",
+              "type": "contact"
+            },
+            "assignee": {
+              "id": 1,
+              "name": "Fábio Souza",
+              "available_name": "Fábio Souza",
+              "avatar_url": "",
+              "type": "user",
+              "availability_status": "online",
+              "thumbnail": ""
+            },
+            "team": null,
+            "hmac_verified": false
+          },
+          "status": "pending",
+          "custom_attributes": {},
+          "snoozed_until": null,
+          "unread_count": 1,
+          "first_reply_created_at": "2024-08-20T12:35:25.396Z",
+          "priority": null,
+          "waiting_since": 1724173225,
+          "agent_last_seen_at": 1724173788,
+          "contact_last_seen_at": 0,
+          "timestamp": 1724173812,
+          "created_at": 1724157316
+        },
+        "created_at": "2024-08-20T17:10:12.907Z",
+        "id": 46,
+        "inbox": {
+          "id": 4,
+          "name": "557930217897"
+        },
+        "message_type": "incoming",
+        "private": false,
+        "sender": {
+          "account": {
+            "id": 1,
+            "name": "HopChat"
+          },
+          "additional_attributes": {},
+          "avatar": "",
+          "custom_attributes": {},
+          "email": null,
+          "id": 2,
+          "identifier": "557998271029@s.whatsapp.net",
+          "name": "Fábio Souza",
+          "phone_number": "+557998271029",
+          "thumbnail": ""
+        },
+        "source_id": "WAID:3EB04C5B14B58116401763",
+        "attachments": [
+          {
+            "id": 7,
+            "message_id": 46,
+            "file_type": "image",
+            "account_id": 1,
+            "extension": null,
+            "data_url": "https://chatwoot.farmaciasa.crowde.dev/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBEZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fbf5cd4363325ace5baf9c6180dd2c9120dd1f37/r45aja.jpeg",
+            "thumb_url": "https://chatwoot.farmaciasa.crowde.dev/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBEZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fbf5cd4363325ace5baf9c6180dd2c9120dd1f37/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFINk1BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--8c66cf82a5ef9322d660c02d657584929aac7851/r45aja.jpeg",
+            "file_size": 39295,
+            "width": null,
+            "height": null
+          }
+        ],
+        "event": "message_created"
+      }
+    }
+  }
+}

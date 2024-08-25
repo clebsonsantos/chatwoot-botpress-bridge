@@ -66,15 +66,21 @@ services:
     command: sh -c "bundle exec sidekiq -C config/sidekiq.yml"
 
   bridge:
-    image: douglara/chatwoot-botpress-bridge:1
+    # image: douglara/chatwoot-botpress-bridge:1
+    # image: clebsantos/chatwoot-botpress-bridge:0.0.1
+    build: .
     environment:
-      - RAILS_ENV=production
-      - RAILS_LOG_TO_STDOUT=true
-      - SECRET_KEY_BASE=Testing1234
-      - BOTPRESS_ENDPOINT=http://botpress:3000
-      - BOTPRESS_BOT_ID=hello
-      - CHATWOOT_ENDPOINT=http://chatwoot:3000
-      - CHATWOOT_BOT_TOKEN=password
+      RAILS_ENV: production
+      RAILS_LOG_TO_STDOUT: true
+      SECRET_KEY_BASE: Testing1234
+      BOTPRESS_ENDPOINT: http://botpress:3000
+      BOTPRESS_BOT_ID: hello
+      CHATWOOT_ENDPOINT: http://chatwoot:3000
+      CHATWOOT_BOT_TOKEN: password
+      BOTPRESS_ENABLE_TEXT_REFERENCE_FOR_MEDIA_AUDIO: true
+      BOTPRESS_ENABLE_TEXT_REFERENCE_FOR_MEDIA_VIDEO: true
+      BOTPRESS_ENABLE_TEXT_REFERENCE_FOR_MEDIA_IMAGE: true
+      BOTPRESS_ENABLE_TEXT_REFERENCE_FOR_MEDIA_DOCUMENT: true
     ports:
       - '3002:3000'
 

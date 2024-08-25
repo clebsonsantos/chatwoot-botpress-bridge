@@ -1,15 +1,17 @@
 FROM ruby:3.2.2
 
 COPY Gemfile* /tmp/
+
 WORKDIR /tmp
-RUN gem install bundler
-RUN bundle install
 
-ENV app /app
-RUN mkdir $app
-WORKDIR $app
+RUN gem install bundler && \
+    bundle install
 
-# Copy the main application.
-COPY . ./
+ENV APP_PATH=/app
+RUN mkdir $APP_PATH
 
-CMD bundle exec puma -C config/puma.rb
+WORKDIR $APP_PATH
+
+COPY . .
+
+CMD ["bundle", "exec", "puma", "-C", "config/puma.rb"]
